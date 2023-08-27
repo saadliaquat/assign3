@@ -1,0 +1,75 @@
+.Header .colour{
+    background-color: yellow !important;
+}
+
+#Name{
+    text-decoration:none;
+    color: black;
+    font-weight: 800;
+    font-size: 48px;
+}
+.navbar-toggler{
+    background-color: yellow;
+
+}
+
+.collapse.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-toggler:hover{
+    background-color: white;
+    opacity: 70%;
+}
+.nav-item{
+    border:2px solid black;
+    margin-right: 4px;
+    margin-left: 4px;
+    width: 120px;
+    font-weight: 600;
+}
+
+.nav-item:hover, .nav-item:active{
+    background-color: white;
+    opacity:70%;
+
+}
+body{
+    background-color: maroon;
+    color: white;
+}
+
+.Menuheading{
+    font-weight: 300px;
+    padding-top: 8px;
+}
+
+.contentinbox{
+    padding:5px;
+    border:4px solid black
+}
+
+.Box{
+    padding-bottom:10px;
+}
+
+hr{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+@media(max-width:402px){
+    #Name{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:767px){
+    .nav-item{
+        width:100%;
+        border-bottom: 0px;
+    }
+    .nav-item.sushi{
+        border-bottom: 2px solid black;
+    }
+}
