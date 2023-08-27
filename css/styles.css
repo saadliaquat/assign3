@@ -1,5 +1,5 @@
 .Header .colour{
-    background-color: yellow !important;
+    background-color: burlywood !important;
 }
 
 #Name{
@@ -9,7 +9,7 @@
     font-size: 48px;
 }
 .navbar-toggler{
-    background-color: yellow;
+    background-color: burlywood ;
 
 }
 
@@ -18,7 +18,7 @@
 }
 
 .navbar-toggler:hover{
-    background-color: white;
+    background-color: darkred;
     opacity: 70%;
 }
 .nav-item{
@@ -30,7 +30,7 @@
 }
 
 .nav-item:hover, .nav-item:active{
-    background-color: white;
+    background-color: darkred;
     opacity:70%;
 
 }
